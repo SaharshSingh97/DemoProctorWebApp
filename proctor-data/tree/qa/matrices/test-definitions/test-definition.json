@@ -1,0 +1,58 @@
+{
+  "testType" : "USER",
+  "description" : "Example test definition for 1-ExampleGroups-payloads.json illustrating payload values",
+  "version" : 0,
+  "constants" : {
+  },
+  "rule" : null,
+  "salt" : "bgcolortst",
+  "buckets" : [ {
+    "name" : "inactive",
+    "value" : -1,
+    "description" : "Inactive",
+    "payload": {
+      "stringValue": "#000000"
+    }
+  }, {
+    "name" : "altcolor1",
+    "value" : 0,
+    "description" : "Background color 1",
+    "payload": {
+      "stringValue": "#000000"
+    }
+  }, {
+    "name" : "altcolor2",
+    "value" : 1,
+    "description" : "Background color 2",
+    "payload": {
+      "stringValue": "#FFBFEF"
+    }
+  }, {
+    "name" : "altcolor3",
+    "value" : 2,
+    "description" : "Background color 3",
+    "payload": {
+      "stringValue": "#FFBF00"
+    }
+  }, {
+    "name" : "altcolor4",
+    "value" : 3,
+    "description" : "Background color 4",
+    "payload": {
+      "stringValue": "#53BDFF"
+    }
+  }],
+  "allocations" : [ {
+    "rule" : null,
+    "ranges" : [ {
+      "length" : 0.25,
+      "bucketValue" : 0
+    }, {
+      "length" : 0.50,
+      "bucketValue" : -1
+    }, {
+      "length" : 0.25,
+      "bucketValue" : 1
+    } ]
+  } ]
+}
