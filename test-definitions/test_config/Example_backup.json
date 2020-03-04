@@ -50,7 +50,7 @@
       }, {
         "name" : "altColor4",
         "value" : 3,
-        "description" : "green",
+        "description" : "green in github",
         "payload" : {
           "map" : {
             "bgcolor" : "#008040",
@@ -61,10 +61,10 @@
       "allocations" : [ {
         "rule" : null,
         "ranges" : [ {
-          "length" : 0.1,
+          "length" : 0.155,
           "bucketValue" : -1
         }, {
-          "length" : 0.9,
+          "length" : 0.845,
           "bucketValue" : 3
         } ]
       } ],
