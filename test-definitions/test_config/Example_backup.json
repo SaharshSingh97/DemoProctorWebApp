@@ -2,7 +2,7 @@
   "tests" : {
     "bgcolortst" : {
       "version" : 2,
-      "description" : "background color test",
+      "description" : "background color test from github",
       "constants" : {
       },
       "rule" : null,
