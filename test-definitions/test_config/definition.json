@@ -1,0 +1,56 @@
+{
+  "version" : "-1",
+  "constants" : { },
+  "specialConstants" : { },
+  "salt" : "&test_config",
+  "rule" : null,
+  "buckets" : [ {
+    "name" : "inactive",
+    "value" : -1,
+    "description" : "default",
+    "payload" : {
+      "map" : {
+        "bgcolor" : "",
+        "bucketNameFontSizePercentage" : 0
+      }
+    }
+  }, {
+    "name" : "altColor1",
+    "value" : 0,
+    "description" : "altColor1",
+    "payload" : {
+      "map" : {
+        "bgcolor" : "#ff6600",
+        "bucketNameFontSizePercentage" : 120
+      }
+    }
+  }, {
+    "name" : "altColor2",
+    "value" : 1,
+    "description" : "altColor2",
+    "payload" : {
+      "map" : {
+        "bgcolor" : "#CD29C0",
+        "bucketNameFontSizePercentage" : 120
+      }
+    }
+  } ],
+  "allocations" : [ {
+    "rule" : null,
+    "ranges" : [ {
+      "bucketValue" : -1,
+      "length" : 0.4
+    }, {
+      "bucketValue" : 0,
+      "length" : 0.4
+    }, {
+      "bucketValue" : 1,
+      "length" : 0.2
+    } ],
+    "id" : "#A1"
+  } ],
+  "silent" : false,
+  "metaTags" : [ ],
+  "testType" : "USER",
+  "description" : "desc"
+}
