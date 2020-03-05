@@ -1,0 +1,31 @@
+{
+  "version" : "-1",
+  "constants" : { },
+  "specialConstants" : { },
+  "salt" : "&test_try",
+  "rule" : null,
+  "buckets" : [ {
+    "name" : "inactive",
+    "value" : -1,
+    "description" : "default"
+  }, {
+    "name" : "active",
+    "value" : 0,
+    "description" : "version"
+  } ],
+  "allocations" : [ {
+    "rule" : null,
+    "ranges" : [ {
+      "bucketValue" : -1,
+      "length" : 0.2
+    }, {
+      "bucketValue" : 0,
+      "length" : 0.8
+    } ],
+    "id" : "#A1"
+  } ],
+  "silent" : false,
+  "metaTags" : [ ],
+  "testType" : "USER",
+  "description" : "test1desc"
+}
