@@ -7,11 +7,11 @@
   "buckets" : [ {
     "name" : "inactive",
     "value" : -1,
-    "description" : "Total Series"
+    "description" : "Total Series Published"
   }, {
     "name" : "active",
     "value" : 0,
-    "description" : "by you"
+    "description" : "Total Series Published by You"
   } ],
   "allocations" : [ {
     "rule" : null,
