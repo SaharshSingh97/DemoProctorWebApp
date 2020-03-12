@@ -7,11 +7,21 @@
   "buckets" : [ {
     "name" : "inactive",
     "value" : -1,
-    "description" : "Total Modules Published"
+    "description" : "Total Modules Published",
+    "payload" : {
+      "map" : {
+        "x" : 11
+      }
+    }
   }, {
     "name" : "active",
     "value" : 0,
-    "description" : "Total Modules Published by You"
+    "description" : "Total Modules Published by You",
+    "payload" : {
+      "map" : {
+        "d" : 22
+      }
+    }
   } ],
   "allocations" : [ {
     "rule" : null,
