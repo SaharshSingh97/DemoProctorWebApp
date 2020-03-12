@@ -1,0 +1,26 @@
+{
+  "version" : "19022a751022af9dbd3d7b4a2dc89e1de2de46b5",
+  "constants" : {
+    "__COUNTRIES" : [ "AR", "AU", "BR", "CA", "CL", "CO", "NZ", "PE", "PT", "US", "VE", "ZA" ]
+  },
+  "specialConstants" : { },
+  "salt" : "&ruleTest",
+  "rule" : "xyz =='US'",
+  "buckets" : [ {
+    "name" : "def",
+    "value" : -1,
+    "description" : "base"
+  } ],
+  "allocations" : [ {
+    "rule" : null,
+    "ranges" : [ {
+      "bucketValue" : -1,
+      "length" : 1.0
+    } ],
+    "id" : "#A1"
+  } ],
+  "silent" : false,
+  "metaTags" : [ ],
+  "testType" : "USER",
+  "description" : "desc"
+}
