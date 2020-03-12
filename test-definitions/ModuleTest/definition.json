@@ -1,5 +1,5 @@
 {
-  "version" : "c9cd0ae758077c45079efb7ea7917ad5c5a9fe5a",
+  "version" : "cc6a3ec52c47fa25d606e6f57d85b5f2c17b05fa",
   "constants" : { },
   "specialConstants" : { },
   "salt" : "&ModuleTest",
@@ -7,11 +7,21 @@
   "buckets" : [ {
     "name" : "inactive",
     "value" : -1,
-    "description" : "Total Modules Published"
+    "description" : "Total Modules Published",
+    "payload" : {
+      "map" : {
+        "x" : 11
+      }
+    }
   }, {
     "name" : "active",
     "value" : 0,
-    "description" : "Total Modules Published by You"
+    "description" : "Total Modules Published by You",
+    "payload" : {
+      "map" : {
+        "d" : 22
+      }
+    }
   } ],
   "allocations" : [ {
     "rule" : null,
