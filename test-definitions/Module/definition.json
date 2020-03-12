@@ -1,0 +1,31 @@
+{
+  "version" : "-1",
+  "constants" : { },
+  "specialConstants" : { },
+  "salt" : "&Module",
+  "rule" : null,
+  "buckets" : [ {
+    "name" : "base",
+    "value" : -1,
+    "description" : "default"
+  }, {
+    "name" : "active",
+    "value" : 0,
+    "description" : "active"
+  } ],
+  "allocations" : [ {
+    "rule" : null,
+    "ranges" : [ {
+      "bucketValue" : -1,
+      "length" : 0.5
+    }, {
+      "bucketValue" : 0,
+      "length" : 0.5
+    } ],
+    "id" : "#A1"
+  } ],
+  "silent" : false,
+  "metaTags" : [ ],
+  "testType" : "USER",
+  "description" : "mdesc"
+}
