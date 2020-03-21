@@ -17,10 +17,10 @@
     "rule" : null,
     "ranges" : [ {
       "bucketValue" : -1,
-      "length" : 0.4
+      "length" : 0.3
     }, {
       "bucketValue" : 0,
-      "length" : 0.6
+      "length" : 0.7
     } ],
     "id" : "#A1"
   } ],
