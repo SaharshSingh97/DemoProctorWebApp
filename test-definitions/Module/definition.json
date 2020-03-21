@@ -1,5 +1,5 @@
 {
-  "version" : "4b1847bb7146e111b0e40446e95df343368aa0f5",
+  "version" : "66a4a9eacc5e643dc1d256c7d3f1f2ebf8e081e6",
   "constants" : { },
   "specialConstants" : { },
   "salt" : "&Module",
@@ -17,10 +17,10 @@
     "rule" : null,
     "ranges" : [ {
       "bucketValue" : -1,
-      "length" : 0.5
+      "length" : 0.6
     }, {
       "bucketValue" : 0,
-      "length" : 0.5
+      "length" : 0.4
     } ],
     "id" : "#A1"
   } ],
